@@ -1,68 +1,64 @@
 {
     "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
-      "social": [
-        {
-          "name": "github",
-          "url": "https://github.com",
-          "class": "fab fa-github"
-        },
-        {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
-        }
-      ],
-      "image": "myProfile.jpg"
+        "name": "Luciano Heitt",
+        "titles": ["Full Stack Developer"],
+        "social": [
+            {
+                "name": "mail",
+                "url": "mailto:lheitt@gmail.com",
+                "class": "fa fa-envelope"
+            },
+            {
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/luciano-heitt/",
+                "class": "fab fa-linkedin"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/lheitt",
+                "class": "fab fa-github"
+            }
+        ],
+        "image": "myProfile.jpeg"
     },
     "skills": {
-      "icons": [
-        {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
-        },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
-        },
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
-        },
-        {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
-        },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
-        },
-        {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
-        },
-        {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
-        }
-      ]
+        "icons": [
+            {
+                "name": "HTML 5",
+                "class": "devicon-html5-plain"
+            },
+            {
+                "name": "CSS 3",
+                "class": "devicon-css3-plain"
+            },
+            {
+                "name": "Angular",
+                "class": "devicon-angularjs-plain"
+            },
+            {
+                "name": "TypeScript",
+                "class": "devicon-typescript-plain"
+            },
+            {
+                "name": "JavaScript",
+                "class": "devicon-javascript-plain"
+            },
+            {
+                "name": "Sass",
+                "class": "devicon-sass-original"
+            },
+            {
+                "name": "Bootstrap",
+                "class": "devicon-bootstrap-plain"
+            },
+            {
+                "name": "C#",
+                "class": "devicon-csharp-plain"
+            },
+            {
+                "name": "MySql",
+                "class": "devicon-mysql-plain"
+            }
+        ]
     }
-  }
+}

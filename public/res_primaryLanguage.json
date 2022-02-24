@@ -1,12 +1,13 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description_header": "Hola",
+      "description": "👋🏻 Mi nombre es Luciano Heitt y me desempeño actualmente como Desarrollador Full Stack manejando tecnologías como los son JavaScript, React, React Native, Redux, Node, HTML, CSS y SQL entre otras. Además me desenvuelvo con una gran fluidez en el mundo de la Informática y poseo conocimientos avanzados también en la edición de video, la edición de imágenes, la electrónica y el mundo de la creación de contenidos en general, llegando a ser partner en youtube y afiliado en Twitch. 📺",
       "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
+        "about": "Acerca de mí",
+        "projects": "Proyectos",
+        "skills": "Habilidades",
+        "experience": "Experiencia",
+        "contact": "Contacto"
       }
     },
     "projects": [

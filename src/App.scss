@@ -173,6 +173,7 @@ header h1 {
 .polaroid img {
 	display: block;
 	max-width: 200px;
+	object-fit: cover;
 }
 
 .polaroid span {
@@ -424,5 +425,5 @@ footer a:focus {
 
 .social-links {
 	margin-top: 50px;
-	font-size: 22px;
+	font-size: 30px;
 }
