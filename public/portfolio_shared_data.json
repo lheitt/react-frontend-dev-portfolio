@@ -48,7 +48,7 @@
                 "class": "devicon-materialui-plain"
             },
             {
-                "name": "NodeJs",
+                "name": "Node.js",
                 "class": "devicon-nodejs-plain"
             },
             {
@@ -64,8 +64,16 @@
                 "class": "devicon-postgresql-plain"
             },
             {
+                "name": "Sequelize",
+                "class": "devicon-sequelize-plain"
+            },
+            {
                 "name": "React Native",
                 "class": "devicon-android-plain"
+            },
+            {
+                "name": "NPM",
+                "class": "devicon-npm-original-wordmark"
             },
             {
                 "name": "Socket.IO",
@@ -78,6 +86,14 @@
             {
                 "name": "Photoshop",
                 "class": "devicon-photoshop-plain"
+            },
+            {
+                "name": "Premier Pro",
+                "class": "devicon-premierepro-plain"
+            },
+            {
+                "name": "After Effects",
+                "class": "devicon-aftereffects-plain"
             }
         ]
     }

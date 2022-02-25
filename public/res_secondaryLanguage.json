@@ -1,119 +1,259 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋🏻 My name is Luciano Heitt and I currently work as a Full Stack Developer managing technologies such as JavaScript, React, React Native, Redux, Node, HTML, CSS and SQL among others. In addition, I am very fluent in the IT world and I also have advanced knowledge in video editing, image editing, electronics and the world of content creation in general, becoming a YouTube partner and affiliate on Twitch. 📺",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience",
-        "contact": "Contact"
-      }
+        "description_header": "Hi",
+        "description": "👋🏻 My name is Luciano Heitt and I currently work as a Full Stack Developer managing technologies such as JavaScript, React, React Native, Redux, Node, HTML, CSS and SQL among others. In addition, I am very fluent in the IT world and I also have advanced knowledge in video editing, image editing, electronics and the world of content creation in general, becoming a YouTube partner and affiliate on Twitch. 📺",
+        "section_name": {
+            "about": "About me",
+            "projects": "Projects",
+            "skills": "Skills",
+            "experience": "Experience",
+            "contact": "Contact"
+        }
     },
     "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
+        {
+            "title": "¿Quién es más probable?",
+            "startDate": "2022",
+            "description": "Personal project based on the popular game Most Likely To. Which, thanks to a websocket, allows the interaction in real time of an unlimited group of people, in order to complete the main objective of the game: choose from among the players present the one who, according to the player's criteria, is the most likely to fulfill the premise of the question displayed on the screen. In addition to having independent rooms for each group of players, the two versions (web and mobile app) have the possibility of adding questions to the game and changing the colors of the interface between a dark or light theme.",
+            "images": [
+                "images/portfolio/Quien es mas probable/Game.jpg",
+                "images/portfolio/Quien es mas probable/GameResults.jpg",
+                "images/portfolio/Quien es mas probable/Home.jpg",
+                "images/portfolio/Quien es mas probable/CreateRoom.jpg",
+                "images/portfolio/Quien es mas probable/JoinRoom.jpg",
+                "images/portfolio/Quien es mas probable/Questions.jpg"
+            ],
+            "url": "https://quien-es-mas-probable.vercel.app/",
+            "technologies": [
+                {
+                    "class": "devicon-javascript-plain",
+                    "name": "JavaScript"
+                },
+                {
+                    "class": "devicon-react-original",
+                    "name": "React"
+                },
+                {
+                    "class": "devicon-html5-plain",
+                    "name": "HTML 5"
+                },
+                {
+                    "class": "devicon-materialui-plain",
+                    "name": "Material IU"
+                },
+                {
+                    "class": "devicon-nodejs-plain",
+                    "name": "Node.js"
+                },
+                {
+                    "class": "devicon-express-original",
+                    "name": "Express"
+                },
+                {
+                    "class": "devicon-firebase-plain",
+                    "name": "Firebase"
+                },
+                {
+                    "class": "devicon-socketio-original",
+                    "name": "Socket.IO"
+                },
+                {
+                    "class": "devicon-android-plain",
+                    "name": "React Native"
+                }
+            ]
+        },
+        {
+            "title": "PocketFit",
+            "startDate": "2021",
+            "description": "Project for the administration of a gym developed during Henry's bootcamp by 7 people, which is divided into two platforms: web and mobile. The administration-oriented website with the possibility of managing the weekly gym plan, shifts, classes, events, users, feedback and even a newsletter. And the customer-oriented mobile with the possibility of viewing their weekly plan, statistics, upcoming gym events and holidays, editing their profile, giving feedback and even being able to pay their monthly payment through the app.",
+            "images": [
+                "images/portfolio/PocketFit/Home.jpg",
+                "images/portfolio/PocketFit/Login.jpg",
+                "images/portfolio/PocketFit/Users.jpg",
+                "images/portfolio/PocketFit/UserDetail.jpg",
+                "images/portfolio/PocketFit/Routines.jpg",
+                "images/portfolio/PocketFit/EditDayRoutine.jpg",
+                "images/portfolio/PocketFit/Timetable.jpg",
+                "images/portfolio/PocketFit/EventDetail.jpg",
+                "images/portfolio/PocketFit/Shifts.jpg",
+                "images/portfolio/PocketFit/Feedback.png",
+                "images/portfolio/PocketFit/Configuration.jpg",
+                "images/portfolio/PocketFit/NewClass.jpg"
+            ],
+            "url": "https://pocketgym.vercel.app/session/home",
+            "technologies": [
+                {
+                    "class": "devicon-javascript-plain",
+                    "name": "JavaScript"
+                },
+                {
+                    "class": "devicon-react-original",
+                    "name": "React"
+                },
+                {
+                    "class": "devicon-redux-original",
+                    "name": "Redux"
+                },
+                {
+                    "class": "devicon-html5-plain",
+                    "name": "HTML 5"
+                },
+                {
+                    "class": "devicon-nodejs-plain",
+                    "name": "Node.js"
+                },
+                {
+                    "class": "devicon-express-original",
+                    "name": "Express"
+                },
+                {
+                    "class": "devicon-postgresql-plain",
+                    "name": "PostgreSQL"
+                },
+                {
+                    "class": "devicon-sequelize-plain",
+                    "name": "Sequelize"
+                },
+                {
+                    "class": "devicon-android-plain",
+                    "name": "React Native"
+                }
+            ]
+        },
+        {
+            "title": "Videogames App",
+            "startDate": "2021",
+            "description": "SPA created during Henry's bootcamp which, thanks to the RAWG API, allows you to obtain the details of a particular video game out of +500,000 and add new ones to a database. It also has a search bar, the possibility of sorting the video games displayed ascending or descending depending on their name or rating, and also being able to filter them by genre or origin (API or DB).",
+            "images": [
+                "images/portfolio/Videogames/Home.jpg",
+                "images/portfolio/Videogames/VideogameDetail.jpg",
+                "images/portfolio/Videogames/AddVideogame.jpg"
+            ],
+            "url": "https://pi-videogames-lh.vercel.app",
+            "technologies": [
+                {
+                    "class": "devicon-javascript-plain",
+                    "name": "JavaScript"
+                },
+                {
+                    "class": "devicon-react-original",
+                    "name": "React"
+                },
+                {
+                    "class": "devicon-redux-original",
+                    "name": "Redux"
+                },
+                {
+                    "class": "devicon-html5-plain",
+                    "name": "HTML 5"
+                },
+                {
+                    "class": "devicon-css3-plain",
+                    "name": "CSS 3"
+                },
+                {
+                    "class": "devicon-nodejs-plain",
+                    "name": "Node.js"
+                },
+                {
+                    "class": "devicon-express-original",
+                    "name": "Express"
+                },
+                {
+                    "class": "devicon-postgresql-plain",
+                    "name": "PostgreSQL"
+                },
+                {
+                    "class": "devicon-sequelize-plain",
+                    "name": "Sequelize"
+                }
+            ]
+        }
     ],
     "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
+        {
+            "icon": "fas fa-code",
+            "company": "Autonomous",
+            "title": "Full Stack Developer",
+            "years": "01.2022 - present",
+            "mainTech": ["JavaScript", "React", "Node"],
+            "technologies": [
+                "HTML 5",
+                "CSS 3",
+                "React Native",
+                "Material IU",
+                "React Native Paper",
+                "Express",
+                "Firebase",
+                "NPM",
+                "Git",
+                "Socket.IO",
+                "Postman",
+                "Heroku",
+                "Vercel"
+            ]
+        },
+        {
+            "icon": "fas fa-code",
+            "company": "Henry's Bootcamp",
+            "title": "Full Stack Developer",
+            "years": "08.2021 - 12.2021",
+            "mainTech": ["JavaScript", "React", "Node"],
+            "technologies": [
+                "HTML 5",
+                "CSS 3",
+                "Redux",
+                "React Native",
+                "Webpack",
+                "Bootstrap",
+                "SASS",
+                "Tailwind",
+                "Express",
+                "SQLite",
+                "PostgreSQL",
+                "Sequelize",
+                "NPM",
+                "Git",
+                "Jest",
+                "Mocha",
+                "Postman",
+                "Heroku",
+                "Vercel",
+                "Figma"
+            ]
+        },
+        {
+            "icon": "fab fa-youtube",
+            "company": "Google",
+            "title": "Youtube Partner",
+            "years": "11.2019 - 12.2021",
+            "mainTech": [],
+            "technologies": ["OBS", "Photoshop", "Premier Pro", "After Effects", "Cinema 4D"]
+        },
+        {
+            "icon": "fab fa-twitch",
+            "company": "Amazon",
+            "title": "Twitch Afiliate",
+            "years": "05.2021 - 12.2021",
+            "mainTech": [],
+            "technologies": ["OBS", "Photoshop"]
+        },
+        {
+            "icon": "fas fa-laptop",
+            "company": "Escuelas Newton",
+            "title": "Computer Technician",
+            "years": "05.2013 - 05.2014",
+            "mainTech": [],
+            "technologies": ["Windows", "Linux"]
+        },
+        {
+            "icon": "fas fa-microchip",
+            "company": "Escuelas Newton",
+            "title": "Electronic Technician",
+            "years": "03.2011 - 09.2012",
+            "mainTech": [],
+            "technologies": []
+        }
     ]
-  }
+}
