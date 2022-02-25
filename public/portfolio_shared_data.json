@@ -24,6 +24,10 @@
     "skills": {
         "icons": [
             {
+                "name": "JavaScript",
+                "class": "devicon-javascript-plain"
+            },
+            {
                 "name": "HTML 5",
                 "class": "devicon-html5-plain"
             },
@@ -32,32 +36,48 @@
                 "class": "devicon-css3-plain"
             },
             {
-                "name": "Angular",
-                "class": "devicon-angularjs-plain"
+                "name": "React",
+                "class": "devicon-react-original"
             },
             {
-                "name": "TypeScript",
-                "class": "devicon-typescript-plain"
+                "name": "Redux",
+                "class": "devicon-redux-original"
             },
             {
-                "name": "JavaScript",
-                "class": "devicon-javascript-plain"
+                "name": "Material IU",
+                "class": "devicon-materialui-plain"
             },
             {
-                "name": "Sass",
-                "class": "devicon-sass-original"
+                "name": "NodeJs",
+                "class": "devicon-nodejs-plain"
             },
             {
-                "name": "Bootstrap",
-                "class": "devicon-bootstrap-plain"
+                "name": "Express",
+                "class": "devicon-express-original"
             },
             {
-                "name": "C#",
-                "class": "devicon-csharp-plain"
+                "name": "Firebase",
+                "class": "devicon-firebase-plain"
             },
             {
-                "name": "MySql",
-                "class": "devicon-mysql-plain"
+                "name": "PostgreSQL",
+                "class": "devicon-postgresql-plain"
+            },
+            {
+                "name": "React Native",
+                "class": "devicon-android-plain"
+            },
+            {
+                "name": "Socket.IO",
+                "class": "devicon-socketio-original"
+            },
+            {
+                "name": "Git",
+                "class": "devicon-git-plain"
+            },
+            {
+                "name": "Photoshop",
+                "class": "devicon-photoshop-plain"
             }
         ]
     }
