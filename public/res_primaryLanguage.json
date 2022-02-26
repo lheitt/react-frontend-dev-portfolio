@@ -224,20 +224,20 @@
             ]
         },
         {
-            "icon": "fab fa-youtube",
-            "company": "Google",
-            "title": "Youtube Partner",
-            "years": "11.2019 - 12.2021",
-            "mainTech": [],
-            "technologies": ["OBS", "Photoshop", "Premier Pro", "After Effects", "Cinema 4D"]
-        },
-        {
             "icon": "fab fa-twitch",
             "company": "Amazon",
             "title": "Twitch Afiliate",
             "years": "05.2021 - 12.2021",
             "mainTech": [],
             "technologies": ["OBS", "Photoshop"]
+        },
+        {
+            "icon": "fab fa-youtube",
+            "company": "Google",
+            "title": "Youtube Partner",
+            "years": "11.2019 - 12.2021",
+            "mainTech": [],
+            "technologies": ["OBS", "Photoshop", "Premier Pro", "After Effects", "Cinema 4D"]
         },
         {
             "icon": "fas fa-laptop",
