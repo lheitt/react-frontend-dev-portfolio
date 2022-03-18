@@ -1,7 +1,7 @@
 {
     "basic_info": {
         "description_header": "Hola",
-        "description": "👋🏻 Mi nombre es Luciano Heitt y me desempeño actualmente como Desarrollador Full Stack manejando tecnologías como los son JavaScript, React, React Native, Redux, Node, HTML, CSS y SQL entre otras. Además me desenvuelvo con una gran fluidez en el mundo de la Informática y poseo conocimientos avanzados también en la edición de video, la edición de imágenes, la electrónica y el mundo de la creación de contenidos en general, llegando a ser partner en youtube y afiliado en Twitch. 📺",
+        "description": "👋🏻 Mi nombre es Luciano Heitt y me desempeño actualmente como Desarrollador Full Stack manejando tecnologías como los son JavaScript, React, React Native, Redux, Node, HTML, CSS y SQL entre otras. Además me desenvuelvo con una gran fluidez en el mundo de la Informática y poseo conocimientos avanzados también en la edición de video, la edición de imágenes, la electrónica y el mundo de la creación de contenidos en general, llegando a ser partner en YouTube y afiliado en Twitch. 📺",
         "section_name": {
             "about": "Acerca de mí",
             "projects": "Proyectos",
@@ -39,7 +39,7 @@
                 },
                 {
                     "class": "devicon-materialui-plain",
-                    "name": "Material IU"
+                    "name": "Material UI"
                 },
                 {
                     "class": "devicon-nodejs-plain",
@@ -182,7 +182,7 @@
                 "HTML 5",
                 "CSS 3",
                 "React Native",
-                "Material IU",
+                "Material UI",
                 "React Native Paper",
                 "Express",
                 "Firebase",
