@@ -31,6 +31,8 @@ class Footer extends Component {
 
                     <div className="social-links">{networks}</div>
 
+                    <a href="https://www.dropbox.com/s/ig2fs1nqgio5iq3/Luciano%20Heitt%20-%20Full%20Stack%20Developer.pdf?dl=1">Descargar CV</a>
+
                     <div className="copyright py-4 text-center">
                         <div className="container">
                             <small>
