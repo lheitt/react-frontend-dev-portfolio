@@ -179,9 +179,12 @@
             "years": "01.2022 - presente",
             "mainTech": ["JavaScript", "React", "Node"],
             "technologies": [
+                "TypeScript",
                 "HTML 5",
                 "CSS 3",
                 "React Native",
+                "SASS",
+                "Bootstrap",
                 "Material UI",
                 "React Native Paper",
                 "Express",

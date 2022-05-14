@@ -48,6 +48,14 @@
                 "class": "devicon-materialui-plain"
             },
             {
+                "name": "Bootstrap",
+                "class": "devicon-bootstrap-plain"
+            },
+            {
+                "name": "SASS",
+                "class": "devicon-sass-original"
+            },
+            {
                 "name": "Node.js",
                 "class": "devicon-nodejs-plain"
             },
