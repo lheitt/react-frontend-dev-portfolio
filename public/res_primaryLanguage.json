@@ -1,262 +1,359 @@
 {
-    "basic_info": {
-        "description_header": "Hola",
-        "description": "👋🏻 Mi nombre es Luciano Heitt y me desempeño actualmente como Desarrollador Full Stack manejando tecnologías como los son JavaScript, React, React Native, Redux, Node, HTML, CSS y SQL entre otras. Además me desenvuelvo con una gran fluidez en el mundo de la Informática y poseo conocimientos avanzados también en la edición de video, la edición de imágenes, la electrónica y el mundo de la creación de contenidos en general, llegando a ser partner en YouTube y afiliado en Twitch. 📺",
-        "section_name": {
-            "about": "Acerca de mí",
-            "projects": "Proyectos",
-            "skills": "Habilidades",
-            "experience": "Experiencia",
-            "contact": "Contacto"
+  "basic_info": {
+    "description_header": "Hola",
+    "description": "👋🏻 Mi nombre es Luciano Heitt y soy Full Stack Developer con 4 años de experiencia, especializado en React, Redux, Node.js, TypeScript y Firebase. Tengo experiencia adicional en React Native y NestJS, participando en el desarrollo de aplicaciones web y mobile de alto rendimiento. Capacidad demostrada para liderar proyectos, colaborar en equipos ágiles y resolver problemas de manera eficiente y creativa. Sólida formación técnica complementada con conocimientos en informática, electrónica y producción digital. 📺",
+    "section_name": {
+      "about": "Acerca de mí",
+      "projects": "Proyectos",
+      "skills": "Habilidades",
+      "experience": "Experiencia",
+      "contact": "Contacto"
+    }
+  },
+  "projects": [
+    {
+      "title": "Integración E-commerce Ametller Origen",
+      "startDate": "2025",
+      "description": "Integré soluciones e-commerce para Ametller Origen, garantizando compatibilidad y rendimiento óptimo entre múltiples plataformas. Desarrollé APIs RESTful robustas, implementé sistemas de sincronización de datos en tiempo real y optimicé la arquitectura para manejar alto volumen de transacciones. El proyecto incluyó integración con sistemas de inventario, procesamiento de pagos y analytics avanzados.",
+      "images": [
+        "images/portfolio/Ametller/Home.png",
+        "images/portfolio/Ametller/Perfil.png",
+        "images/portfolio/Ametller/PlanNutricional.png",
+        "images/portfolio/Ametller/Receta.png",
+        "images/portfolio/Ametller/Escaner.png",
+        "images/portfolio/Ametller/Productos.png",
+        "images/portfolio/Ametller/Recomendados.png"
+      ],
+      "url": "https://ultrapersonalizacion.gundo.life/",
+      "technologies": [
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-nestjs-plain",
+          "name": "NestJS"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-firebase-plain",
+          "name": "Firebase"
         }
+      ]
     },
-    "projects": [
+    {
+      "title": "E-commerce Uvesco",
+      "startDate": "2024",
+      "description": "Desarrollé el e-commerce interno para empleados de Uvesco, optimizando la experiencia de compra y los procesos internos. Implementé un sistema completo de gestión de productos, carrito de compras, procesamiento de pagos y administración de pedidos. La plataforma incluye funcionalidades específicas para empleados como descuentos especiales, catálogo personalizado y integración con sistemas internos de la empresa.",
+      "images": [
+        "images/portfolio/Uvesco/Home.png",
+        "images/portfolio/Uvesco/Perfil.png",
+        "images/portfolio/Uvesco/Carrito.png",
+        "images/portfolio/Uvesco/Categorias.png",
+        "images/portfolio/Uvesco/PlanNutricional.png",
+        "images/portfolio/Uvesco/Recetas.png"
+      ],
+      "url": "https://uvesco-app.web.app/",
+      "technologies": [
         {
-            "title": "¿Quién es más probable?",
-            "startDate": "2022",
-            "description": "Proyecto personal basado en el popular juego Most Likely To, más conocido en español como ¿Quién es más probable/propenso?. El cual gracias a un websocket, permite la interacción en tiempo real de un grupo ilimitado de personas, para así completar el objetivo principal del juego: elegir de entre los jugadores presentes al que, bajo criterio del jugador, sea el más probable de cumplir la premisa de la pregunta mostrada en pantalla. Además de contar con salas independientes para cada grupo de jugadores, las dos versiones (web y mobile app) cuentan con la posibilidad de agregar preguntas al juego y la de cambiar los colores de la interfaz entre tema oscuro o claro.",
-            "images": [
-                "images/portfolio/Quien es mas probable/Game.jpg",
-                "images/portfolio/Quien es mas probable/GameResults.jpg",
-                "images/portfolio/Quien es mas probable/Home.jpg",
-                "images/portfolio/Quien es mas probable/CreateRoom.jpg",
-                "images/portfolio/Quien es mas probable/JoinRoom.jpg",
-                "images/portfolio/Quien es mas probable/Questions.jpg"
-            ],
-            "url": "https://quien-es-mas-probable.vercel.app/",
-            "technologies": [
-                {
-                    "class": "devicon-javascript-plain",
-                    "name": "JavaScript"
-                },
-                {
-                    "class": "devicon-react-original",
-                    "name": "React"
-                },
-                {
-                    "class": "devicon-html5-plain",
-                    "name": "HTML 5"
-                },
-                {
-                    "class": "devicon-materialui-plain",
-                    "name": "Material UI"
-                },
-                {
-                    "class": "devicon-nodejs-plain",
-                    "name": "Node.js"
-                },
-                {
-                    "class": "devicon-express-original",
-                    "name": "Express"
-                },
-                {
-                    "class": "devicon-firebase-plain",
-                    "name": "Firebase"
-                },
-                {
-                    "class": "devicon-socketio-original",
-                    "name": "Socket.IO"
-                },
-                {
-                    "class": "devicon-android-plain",
-                    "name": "React Native"
-                }
-            ]
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
         },
         {
-            "title": "PocketFit",
-            "startDate": "2021",
-            "description": "Proyecto destinado a las administración de un gimnasio desarrollado durante el bootcamp de Henry por 7 personas el cual se divide en dos plataformas: web y mobile. La web orientada hacia la administración con la posibilidad de gestionar el plan semanal del gimnasio, los turnos, las clases, los eventos, los usuarios, el feedback y hasta un newsletter. Y la mobile orientada hacia el cliente con la posibilidad de visualizar su plan semanal, estadísticas, eventos y feriados próximos del gimnasio, editar su perfil, dar feedback y hasta poder pagar su mensualidad a través de la app.",
-            "images": [
-                "images/portfolio/PocketFit/Home.jpg",
-                "images/portfolio/PocketFit/Login.jpg",
-                "images/portfolio/PocketFit/Users.jpg",
-                "images/portfolio/PocketFit/UserDetail.jpg",
-                "images/portfolio/PocketFit/Routines.jpg",
-                "images/portfolio/PocketFit/EditDayRoutine.jpg",
-                "images/portfolio/PocketFit/Timetable.jpg",
-                "images/portfolio/PocketFit/EventDetail.jpg",
-                "images/portfolio/PocketFit/Shifts.jpg",
-                "images/portfolio/PocketFit/Feedback.png",
-                "images/portfolio/PocketFit/Configuration.jpg",
-                "images/portfolio/PocketFit/NewClass.jpg"
-            ],
-            "url": "https://pocketgym.vercel.app/session/home",
-            "technologies": [
-                {
-                    "class": "devicon-javascript-plain",
-                    "name": "JavaScript"
-                },
-                {
-                    "class": "devicon-react-original",
-                    "name": "React"
-                },
-                {
-                    "class": "devicon-redux-original",
-                    "name": "Redux"
-                },
-                {
-                    "class": "devicon-html5-plain",
-                    "name": "HTML 5"
-                },
-                {
-                    "class": "devicon-nodejs-plain",
-                    "name": "Node.js"
-                },
-                {
-                    "class": "devicon-express-original",
-                    "name": "Express"
-                },
-                {
-                    "class": "devicon-postgresql-plain",
-                    "name": "PostgreSQL"
-                },
-                {
-                    "class": "devicon-sequelize-plain",
-                    "name": "Sequelize"
-                },
-                {
-                    "class": "devicon-android-plain",
-                    "name": "React Native"
-                }
-            ]
+          "class": "devicon-react-original",
+          "name": "React"
         },
         {
-            "title": "Videogames App",
-            "startDate": "2021",
-            "description": "SPA creada durante el bootcamp de Henry la cual gracias a la API RAWG permite obtener los detalles de un videojuego en particular de entre +500.000 y agregar nuevos a una base de datos. Cuenta además con una barra de búsqueda, la posibilidad de ordenar los videojuegos mostrados ascendente o descendentemente dependiendo de su nombre o rating y también la de poder filtrarlos por géneros o por origen (API o DB).",
-            "images": [
-                "images/portfolio/Videogames/Home.jpg",
-                "images/portfolio/Videogames/VideogameDetail.jpg",
-                "images/portfolio/Videogames/AddVideogame.jpg"
-            ],
-            "url": "https://pi-videogames-lh.vercel.app",
-            "technologies": [
-                {
-                    "class": "devicon-javascript-plain",
-                    "name": "JavaScript"
-                },
-                {
-                    "class": "devicon-react-original",
-                    "name": "React"
-                },
-                {
-                    "class": "devicon-redux-original",
-                    "name": "Redux"
-                },
-                {
-                    "class": "devicon-html5-plain",
-                    "name": "HTML 5"
-                },
-                {
-                    "class": "devicon-css3-plain",
-                    "name": "CSS 3"
-                },
-                {
-                    "class": "devicon-nodejs-plain",
-                    "name": "Node.js"
-                },
-                {
-                    "class": "devicon-express-original",
-                    "name": "Express"
-                },
-                {
-                    "class": "devicon-postgresql-plain",
-                    "name": "PostgreSQL"
-                },
-                {
-                    "class": "devicon-sequelize-plain",
-                    "name": "Sequelize"
-                }
-            ]
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "class": "devicon-firebase-plain",
+          "name": "Firebase"
+        },
+        {
+          "class": "devicon-tailwindcss-plain",
+          "name": "Tailwind CSS"
         }
-    ],
-    "experience": [
+      ]
+    },
+    {
+      "title": "App Mobile GUNDO",
+      "startDate": "2023",
+      "description": "Lideré el desarrollo y lanzamiento de la aplicación mobile multiplataforma para iOS y Android utilizando React Native. La app ofrece una experiencia fluida y escalable, integrando funcionalidades avanzadas como autenticación con Firebase, notificaciones push, analytics en tiempo real y sincronización de datos. Implementé arquitecturas optimizadas para el rendimiento y la escalabilidad, garantizando una experiencia de usuario excepcional.",
+      "images": [
+        "images/portfolio/App/Home.png",
+        "images/portfolio/App/Comunidades.png",
+        "images/portfolio/App/Score.png",
+        "images/portfolio/App/DetalleScore.png"
+      ],
+      "url": "",
+      "technologies": [
         {
-            "icon": "fas fa-code",
-            "company": "Autónomo",
-            "title": "Full Stack Developer",
-            "years": "01.2022 - presente",
-            "mainTech": ["JavaScript", "React", "Node"],
-            "technologies": [
-                "TypeScript",
-                "HTML 5",
-                "CSS 3",
-                "React Native",
-                "SASS",
-                "Bootstrap",
-                "Material UI",
-                "React Native Paper",
-                "Express",
-                "Firebase",
-                "NPM",
-                "Git",
-                "Socket.IO",
-                "Postman",
-                "Heroku",
-                "Vercel"
-            ]
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
         },
         {
-            "icon": "fas fa-code",
-            "company": "Bootcamp Henry",
-            "title": "Full Stack Developer",
-            "years": "08.2021 - 12.2021",
-            "mainTech": ["JavaScript", "React", "Node"],
-            "technologies": [
-                "HTML 5",
-                "CSS 3",
-                "Redux",
-                "React Native",
-                "Webpack",
-                "Bootstrap",
-                "SASS",
-                "Tailwind",
-                "Express",
-                "SQLite",
-                "PostgreSQL",
-                "Sequelize",
-                "NPM",
-                "Git",
-                "Jest",
-                "Mocha",
-                "Postman",
-                "Heroku",
-                "Vercel",
-                "Figma"
-            ]
+          "class": "devicon-react-original",
+          "name": "React Native"
         },
         {
-            "icon": "fab fa-twitch",
-            "company": "Amazon",
-            "title": "Twitch Afiliate",
-            "years": "05.2021 - 12.2021",
-            "mainTech": [],
-            "technologies": ["OBS", "Photoshop"]
+          "class": "devicon-firebase-plain",
+          "name": "Firebase"
         },
         {
-            "icon": "fab fa-youtube",
-            "company": "Google",
-            "title": "Youtube Partner",
-            "years": "11.2019 - 12.2021",
-            "mainTech": [],
-            "technologies": ["OBS", "Photoshop", "Premier Pro", "After Effects", "Cinema 4D"]
+          "class": "devicon-redux-original",
+          "name": "Redux"
         },
         {
-            "icon": "fas fa-laptop",
-            "company": "Escuelas Newton",
-            "title": "Técnico Informático",
-            "years": "05.2013 - 05.2014",
-            "mainTech": [],
-            "technologies": ["Windows", "Linux"]
-        },
-        {
-            "icon": "fas fa-microchip",
-            "company": "Escuelas Newton",
-            "title": "Técnico Electrónico",
-            "years": "03.2011 - 09.2012",
-            "mainTech": [],
-            "technologies": []
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
         }
-    ]
+      ]
+    },
+    {
+      "title": "¿Quién es más probable?",
+      "startDate": "2022",
+      "description": "Proyecto personal basado en el popular juego Most Likely To, más conocido en español como ¿Quién es más probable/propenso?. El cual gracias a un websocket, permite la interacción en tiempo real de un grupo ilimitado de personas, para así completar el objetivo principal del juego: elegir de entre los jugadores presentes al que, bajo criterio del jugador, sea el más probable de cumplir la premisa de la pregunta mostrada en pantalla. Además de contar con salas independientes para cada grupo de jugadores, las dos versiones (web y mobile app) cuentan con la posibilidad de agregar preguntas al juego y la de cambiar los colores de la interfaz entre tema oscuro o claro.",
+      "images": [
+        "images/portfolio/Quien es mas probable/Game.jpg",
+        "images/portfolio/Quien es mas probable/GameResults.jpg",
+        "images/portfolio/Quien es mas probable/Home.jpg",
+        "images/portfolio/Quien es mas probable/CreateRoom.jpg",
+        "images/portfolio/Quien es mas probable/JoinRoom.jpg",
+        "images/portfolio/Quien es mas probable/Questions.jpg"
+      ],
+      "url": "https://quien-es-mas-probable.vercel.app/",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML 5"
+        },
+        {
+          "class": "devicon-materialui-plain",
+          "name": "Material UI"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-firebase-plain",
+          "name": "Firebase"
+        },
+        {
+          "class": "devicon-socketio-original",
+          "name": "Socket.IO"
+        },
+        {
+          "class": "devicon-android-plain",
+          "name": "React Native"
+        }
+      ]
+    },
+    {
+      "title": "PocketFit",
+      "startDate": "2021",
+      "description": "Proyecto destinado a las administración de un gimnasio desarrollado durante el bootcamp de Henry por 7 personas el cual se divide en dos plataformas: web y mobile. La web orientada hacia la administración con la posibilidad de gestionar el plan semanal del gimnasio, los turnos, las clases, los eventos, los usuarios, el feedback y hasta un newsletter. Y la mobile orientada hacia el cliente con la posibilidad de visualizar su plan semanal, estadísticas, eventos y feriados próximos del gimnasio, editar su perfil, dar feedback y hasta poder pagar su mensualidad a través de la app.",
+      "images": [
+        "images/portfolio/PocketFit/Home.jpg",
+        "images/portfolio/PocketFit/Login.jpg",
+        "images/portfolio/PocketFit/Users.jpg",
+        "images/portfolio/PocketFit/UserDetail.jpg",
+        "images/portfolio/PocketFit/Routines.jpg",
+        "images/portfolio/PocketFit/EditDayRoutine.jpg",
+        "images/portfolio/PocketFit/Timetable.jpg",
+        "images/portfolio/PocketFit/EventDetail.jpg",
+        "images/portfolio/PocketFit/Shifts.jpg",
+        "images/portfolio/PocketFit/Feedback.png",
+        "images/portfolio/PocketFit/Configuration.jpg",
+        "images/portfolio/PocketFit/NewClass.jpg"
+      ],
+      "url": "https://pocketgym.vercel.app/session/home",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-redux-original",
+          "name": "Redux"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML 5"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "PostgreSQL"
+        },
+        {
+          "class": "devicon-sequelize-plain",
+          "name": "Sequelize"
+        },
+        {
+          "class": "devicon-android-plain",
+          "name": "React Native"
+        }
+      ]
+    },
+    {
+      "title": "Videogames App",
+      "startDate": "2021",
+      "description": "SPA creada durante el bootcamp de Henry la cual gracias a la API RAWG permite obtener los detalles de un videojuego en particular de entre +500.000 y agregar nuevos a una base de datos. Cuenta además con una barra de búsqueda, la posibilidad de ordenar los videojuegos mostrados ascendente o descendentemente dependiendo de su nombre o rating y también la de poder filtrarlos por géneros o por origen (API o DB).",
+      "images": [
+        "images/portfolio/Videogames/Home.jpg",
+        "images/portfolio/Videogames/VideogameDetail.jpg",
+        "images/portfolio/Videogames/AddVideogame.jpg"
+      ],
+      "url": "https://pi-videogames-lh.vercel.app",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-redux-original",
+          "name": "Redux"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML 5"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS 3"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "PostgreSQL"
+        },
+        {
+          "class": "devicon-sequelize-plain",
+          "name": "Sequelize"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "icon": "fas fa-code",
+      "company": "GUNDO",
+      "title": "Full Stack Engineer",
+      "years": "05.2022 - presente",
+      "mainTech": ["JavaScript", "TypeScript", "React", "React Native", "Node.js"],
+      "technologies": [
+        "Redux",
+        "NestJS",
+        "Firebase",
+        "Tailwind CSS",
+        "Git",
+        "GitHub",
+        "APIs REST",
+        "Google Analytics",
+        "Cloud Functions",
+        "Push Notifications"
+      ]
+    },
+    {
+      "icon": "fas fa-code",
+      "company": "Bootcamp Henry",
+      "title": "Full Stack Developer",
+      "years": "08.2021 - 12.2021",
+      "mainTech": ["JavaScript", "React", "Node"],
+      "technologies": [
+        "HTML 5",
+        "CSS 3",
+        "Redux",
+        "React Native",
+        "Webpack",
+        "Bootstrap",
+        "SASS",
+        "Tailwind",
+        "Express",
+        "SQLite",
+        "PostgreSQL",
+        "Sequelize",
+        "NPM",
+        "Git",
+        "Jest",
+        "Mocha",
+        "Postman",
+        "Heroku",
+        "Vercel",
+        "Figma"
+      ]
+    },
+    {
+      "icon": "fab fa-twitch",
+      "company": "Amazon",
+      "title": "Twitch Afiliate",
+      "years": "05.2021 - 12.2021",
+      "mainTech": [],
+      "technologies": ["OBS", "Photoshop"]
+    },
+    {
+      "icon": "fab fa-youtube",
+      "company": "Google",
+      "title": "Youtube Partner",
+      "years": "11.2019 - 12.2021",
+      "mainTech": [],
+      "technologies": ["OBS", "Photoshop", "Premier Pro", "After Effects", "Cinema 4D"]
+    },
+    {
+      "icon": "fas fa-laptop",
+      "company": "Escuelas Newton",
+      "title": "Técnico Informático",
+      "years": "05.2013 - 05.2014",
+      "mainTech": [],
+      "technologies": ["Windows", "Linux"]
+    },
+    {
+      "icon": "fas fa-microchip",
+      "company": "Escuelas Newton",
+      "title": "Técnico Electrónico",
+      "years": "03.2011 - 09.2012",
+      "mainTech": [],
+      "technologies": []
+    }
+  ]
 }

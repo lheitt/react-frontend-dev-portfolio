@@ -17,6 +17,11 @@
                 "name": "github",
                 "url": "https://github.com/lheitt",
                 "class": "fab fa-github"
+            },
+            {
+                "name": "whatsapp",
+                "url": "https://wa.me/5491138809376",
+                "class": "fab fa-whatsapp"
             }
         ],
         "image": "myProfile.jpeg"
@@ -26,6 +31,10 @@
             {
                 "name": "JavaScript",
                 "class": "devicon-javascript-plain"
+            },
+            {
+                "name": "TypeScript",
+                "class": "devicon-typescript-plain"
             },
             {
                 "name": "HTML 5",
@@ -44,6 +53,14 @@
                 "class": "devicon-redux-original"
             },
             {
+                "name": "React Native",
+                "class": "devicon-android-plain"
+            },
+            {
+                "name": "Tailwind CSS",
+                "class": "devicon-tailwindcss-plain"
+            },
+            {
                 "name": "Material UI",
                 "class": "devicon-materialui-plain"
             },
@@ -58,6 +75,10 @@
             {
                 "name": "Node.js",
                 "class": "devicon-nodejs-plain"
+            },
+            {
+                "name": "NestJS",
+                "class": "devicon-nestjs-plain"
             },
             {
                 "name": "Express",
@@ -76,10 +97,6 @@
                 "class": "devicon-sequelize-plain"
             },
             {
-                "name": "React Native",
-                "class": "devicon-android-plain"
-            },
-            {
                 "name": "NPM",
                 "class": "devicon-npm-original-wordmark"
             },
@@ -90,6 +107,10 @@
             {
                 "name": "Git",
                 "class": "devicon-git-plain"
+            },
+            {
+                "name": "GitHub",
+                "class": "devicon-github-original"
             },
             {
                 "name": "Photoshop",

@@ -1,7 +1,7 @@
 {
     "basic_info": {
         "description_header": "Hi",
-        "description": "👋🏻 My name is Luciano Heitt and I currently work as a Full Stack Developer managing technologies such as JavaScript, React, React Native, Redux, Node, HTML, CSS and SQL among others. In addition, I am very fluent in the IT world and I also have advanced knowledge in video editing, image editing, electronics and the world of content creation in general, becoming a YouTube partner and affiliate on Twitch. 📺",
+        "description": "👋🏻 My name is Luciano Heitt and I'm a Full Stack Developer with 4 years of experience, specialized in React, Redux, Node.js, TypeScript and Firebase. I have additional experience in React Native and NestJS, participating in the development of high-performance web and mobile applications. Demonstrated ability to lead projects, collaborate in agile teams and solve problems efficiently and creatively. Solid technical background complemented by knowledge in IT, electronics and digital production. 📺",
         "section_name": {
             "about": "About me",
             "projects": "Projects",
@@ -11,6 +11,109 @@
         }
     },
     "projects": [
+        {
+            "title": "Ametller Origen E-commerce Integration",
+            "startDate": "2025",
+            "description": "Integrated e-commerce solutions for Ametller Origen, ensuring compatibility and optimal performance across multiple platforms. Developed robust RESTful APIs, implemented real-time data synchronization systems, and optimized architecture to handle high transaction volumes. The project included integration with inventory systems, payment processing, and advanced analytics.",
+            "images": [
+                "images/portfolio/Ametller/Home.png",
+                "images/portfolio/Ametller/Perfil.png",
+                "images/portfolio/Ametller/PlanNutricional.png",
+                "images/portfolio/Ametller/Receta.png",
+                "images/portfolio/Ametller/Escaner.png",
+                "images/portfolio/Ametller/Productos.png",
+                "images/portfolio/Ametller/Recomendados.png"
+            ],
+            "url": "https://ultrapersonalizacion.gundo.life/",
+            "technologies": [
+                {
+                    "class": "devicon-typescript-plain",
+                    "name": "TypeScript"
+                },
+                {
+                    "class": "devicon-nestjs-plain",
+                    "name": "NestJS"
+                },
+                {
+                    "class": "devicon-react-original",
+                    "name": "React"
+                },
+                {
+                    "class": "devicon-firebase-plain",
+                    "name": "Firebase"
+                }
+            ]
+        },
+        {
+            "title": "Uvesco E-commerce",
+            "startDate": "2024",
+            "description": "Developed the internal e-commerce platform for Uvesco employees, optimizing the shopping experience and internal processes. Implemented a complete system for product management, shopping cart, payment processing, and order administration. The platform includes employee-specific features like special discounts, personalized catalog, and integration with internal company systems.",
+            "images": [
+                "images/portfolio/Uvesco/Home.png",
+                "images/portfolio/Uvesco/Perfil.png",
+                "images/portfolio/Uvesco/Carrito.png",
+                "images/portfolio/Uvesco/Categorias.png",
+                "images/portfolio/Uvesco/PlanNutricional.png",
+                "images/portfolio/Uvesco/Recetas.png"
+            ],
+            "url": "https://uvesco-app.web.app/",
+            "technologies": [
+                {
+                    "class": "devicon-typescript-plain",
+                    "name": "TypeScript"
+                },
+                {
+                    "class": "devicon-react-original",
+                    "name": "React"
+                },
+                {
+                    "class": "devicon-nodejs-plain",
+                    "name": "Node.js"
+                },
+                {
+                    "class": "devicon-firebase-plain",
+                    "name": "Firebase"
+                },
+                {
+                    "class": "devicon-tailwindcss-plain",
+                    "name": "Tailwind CSS"
+                }
+            ]
+        },
+        {
+            "title": "GUNDO Mobile App",
+            "startDate": "2023",
+            "description": "Led the development and launch of a cross-platform mobile application for iOS and Android using React Native. The app delivers a fluid and scalable experience, integrating advanced features like Firebase authentication, push notifications, real-time analytics, and data synchronization. Implemented performance-optimized architectures ensuring exceptional user experience and scalability.",
+            "images": [
+                "images/portfolio/App/Home.png",
+                "images/portfolio/App/Comunidades.png",
+                "images/portfolio/App/Score.png",
+                "images/portfolio/App/DetalleScore.png"
+            ],
+            "url": "",
+            "technologies": [
+                {
+                    "class": "devicon-typescript-plain",
+                    "name": "TypeScript"
+                },
+                {
+                    "class": "devicon-react-original",
+                    "name": "React Native"
+                },
+                {
+                    "class": "devicon-firebase-plain",
+                    "name": "Firebase"
+                },
+                {
+                    "class": "devicon-redux-original",
+                    "name": "Redux"
+                },
+                {
+                    "class": "devicon-nodejs-plain",
+                    "name": "Node.js"
+                }
+            ]
+        },
         {
             "title": "¿Quién es más probable?",
             "startDate": "2022",
@@ -174,27 +277,21 @@
     "experience": [
         {
             "icon": "fas fa-code",
-            "company": "Autonomous",
-            "title": "Full Stack Developer",
-            "years": "01.2022 - present",
-            "mainTech": ["JavaScript", "React", "Node"],
+            "company": "GUNDO",
+            "title": "Full Stack Engineer",
+            "years": "2022 - present",
+            "mainTech": ["JavaScript", "TypeScript", "React", "React Native", "Node.js"],
             "technologies": [
-                "TypeScript",
-                "HTML 5",
-                "CSS 3",
-                "React Native",
-                "SASS",
-                "Bootstrap",
-                "Material UI",
-                "React Native Paper",
-                "Express",
+                "Redux",
+                "NestJS",
                 "Firebase",
-                "NPM",
+                "Tailwind CSS",
                 "Git",
-                "Socket.IO",
-                "Postman",
-                "Heroku",
-                "Vercel"
+                "GitHub",
+                "REST APIs",
+                "Google Analytics",
+                "Cloud Functions",
+                "Push Notifications"
             ]
         },
         {
